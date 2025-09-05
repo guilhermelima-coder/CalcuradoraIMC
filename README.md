@@ -14,7 +14,7 @@ Mensagens de erro visuais e amigáveis são exibidas diretamente abaixo dos camp
 
 Além disso, o design foi feito com um estilo divertido e profissional, utilizando cores vivas (laranja e branco) para transmitir energia e simplicidade ao mesmo tempo.
 
-#🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 
 React → Biblioteca JavaScript para criação da interface e componentes reutilizáveis.
 
@@ -24,7 +24,7 @@ JavaScript (ES6+) → Para lógica de cálculo, validações e manipulação de 
 
 CSS modularizado → Estilização separada por componentes (estilo.css, header.css, resultado.css), garantindo organização e manutenibilidade.
 
-#🎯 Funcionalidade principal
+# 🎯 Funcionalidade principal
 
 O usuário insere altura (em metros com ponto) e peso (até 3 dígitos).
 
@@ -34,7 +34,7 @@ Ao calcular, o sistema retorna o IMC formatado com duas casas decimais.
 
 Abaixo do resultado, é exibida uma tabela dinâmica que indica em qual classificação o usuário se encontra.
 
-#🚀 Conclusão
+# 🚀 Conclusão
 
 Este projeto vai além de uma simples calculadora de IMC: ele entrega usabilidade, design moderno e boas práticas de programação.
 É um ótimo exemplo de como unir funcionalidade real, feedback visual e código limpo para criar aplicações que oferecem experiência prática e intuitiva ao usuário.
