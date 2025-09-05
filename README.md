@@ -1,8 +1,8 @@
-#🧮 Calculadora de IMC
+# 🧮 Calculadora de IMC
 
 Este projeto é uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida com React e Vite, que permite ao usuário inserir sua altura e peso para calcular automaticamente o seu IMC. Além disso, apresenta uma tabela dinâmica com a classificação correspondente (Abaixo do peso, Peso normal, Sobrepeso, Obesidade Grau I, Obesidade Mórbida), ajudando o usuário a interpretar o resultado de forma clara.
 
-#⚡ Diferencial do projeto
+# ⚡ Diferencial do projeto
 
 O grande diferencial deste projeto está na validação inteligente dos dados de entrada:
 
