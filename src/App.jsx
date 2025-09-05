@@ -27,9 +27,9 @@ function App() {
       setErrorAltura("");
     }
 
-    // valida peso (> 0)
-    if (!peso || peso <= 0) {
-      setErrorPeso("Digite um peso válido (ex: 70)");
+    // valida peso (1 a 999)
+    if (!peso || peso <= 0 || peso > 999) {
+      setErrorPeso("Digite um peso válido com até 3 dígitos (ex: 70, 999)");
       valido = false;
     } else {
       setErrorPeso("");
@@ -50,6 +50,7 @@ function App() {
       <div className="box">
         <Header />
         <form onSubmit={calcularImc}>
+          {/* ALTURA */}
           <div>
             <label htmlFor="altura">Altura (Exemplo: 1.80)</label>
             <input
@@ -62,6 +63,7 @@ function App() {
             {errorAltura && <span className="error">{errorAltura}</span>}
           </div>
 
+          {/* PESO */}
           <div>
             <label htmlFor="peso">Peso (Exemplo: 80)</label>
             <input
@@ -69,7 +71,12 @@ function App() {
               id="peso"
               placeholder="Digite seu peso"
               value={peso}
-              onChange={(e) => setPeso(e.target.value)}
+              onChange={(e) => {
+                const valor = e.target.value;
+                if (valor.length <= 3) {
+                  setPeso(valor);
+                }
+              }}
             />
             {errorPeso && <span className="error">{errorPeso}</span>}
           </div>
