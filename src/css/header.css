@@ -1,0 +1,14 @@
+.header {
+  background: #ff7a29;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(255, 122, 41, 0.4);
+}
+
+.header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
